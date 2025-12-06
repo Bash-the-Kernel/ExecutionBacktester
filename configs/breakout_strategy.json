@@ -1,0 +1,12 @@
+{
+  "data_path": "data/sample_data.csv",
+  "data_format": "csv",
+  "initial_capital": 100000,
+  "slippage_bps": 5.0,
+  "commission_bps": 1.0,
+  "strategy": {
+    "type": "breakout",
+    "lookback": 20
+  },
+  "output_path": "results/breakout_backtest_results.json"
+}
